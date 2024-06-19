@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>For My Love</title>	    
         <link type="text/css" rel="stylesheet" href="./file/default.css">
@@ -23,20 +23,13 @@
             <!-- </audio> -->
             <div id="wrap">
                 <div id="text">
-                    <div id="code"> <font color="#FF0000"> <span class="say"><===❤️===></span><br>
-                      <span class="say">যত সুখ-দুখো যাযাবৰ
-                        ঠিকনাবিহীন ডাৱৰত সাজিম ঘৰ</span><br>
-                      <span class="say">A small gift for you</span><br>
-                      <span class="say">This tree is a reminder</span><br>             
-                      <span class="say">Of the time</span><br>
-                      <span class="say">Since we are in love</span><br>
-                      <span class="say"></span><br>
-                      <span class="say"></span><br>
-                      <span class="say"></span><br>
-                      <span class="say"></span><br>
-                      <span class="say"></span><br>
-                      <span class="say"></span><br>
-                      <span class="say"><span class="space"></span>--All my love Nitish</span></span> </font>
+                    <div id="code"> <font color="#37238c"> <span class="say"><===❤️===></span><br>
+                      <span class="say">A small gift for you in your birthday </span><br>
+                      <span class="say">This tree is a reminder of the time,Since we are in love</span><br>             
+                
+                      <span class="say">It's been 1 year with you,And i've realised how worth it is to love.Thanks for standing by my side, you've made me believe in love</span><br>
+                      <span class="say">এই ঠিকনাবিহীন ডাৱৰত সাজিম ঘৰ তোমাৰ সতে</span><br>
+                      <span class="say"><span class="space"></span>--All my love <br>Nitish</span> </span></span> </font>
                           <br />
                           <br />
                       </p>
@@ -165,7 +158,7 @@
             foot.draw();
             tree.snapshot("p2", 500, 0, 610, 680);
 
-            // 会有闪烁不得意这样做, (＞﹏＜)
+            
             canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
@@ -184,11 +177,11 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2019, 11, 2); 			//时间年月日
-		    together.setHours(20);						//小时	
-		    together.setMinutes(0);					//分钟
-		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(2);				//秒第二位
+		    together.setFullYear(2019, 11, 2); 			
+		    together.setHours(20);							
+		    together.setMinutes(0);					
+		    together.setSeconds(0);					
+		    together.setMilliseconds(2);				
 
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);

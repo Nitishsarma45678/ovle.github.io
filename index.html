@@ -17,10 +17,15 @@
     <body>
         <div id="main">
             <div id="error">This page is edited using HTML5, your current browser cannot display it, please switch to Google Chrome.(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div>
-            <!-- <audio autoplay="autoplay" height="100" width="100"> -->
-                    <!-- <source src="renxi.mp3" type="audio/mp3" /> -->
-                    <!-- <embed height="100" width="100" src="renxi.mp3" /> -->
-            <!-- </audio> -->
+
+		<audio id="background-music" src="background-music.mp3" autoplay loop></audio>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-music');
+            audio.play();
+        });
+    </script>
             <div id="wrap">
                 <div id="text">
                     <div id="code"> <font color="#37238c"> <span class="say">˗ˏˋ ♡ ˎˊ˗</span><br>
